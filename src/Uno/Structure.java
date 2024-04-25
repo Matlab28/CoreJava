@@ -72,7 +72,7 @@ public class Structure {
                 randomColors = Cards.BLUE.getValue();
                 break;
             default:
-//x                System.out.println("This color isn't exist...");
+                randomColors = "This color isn't exist...";
         }
 
 
