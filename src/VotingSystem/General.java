@@ -37,16 +37,16 @@ public class General {
     public Character elections(Scanner scanner) {
         System.out.println("Choose a person, who do you want to vote.");
         System.out.print("Choose one of them: X, Y, Z. - ");
-        Character choose = scanner.next().charAt(0);
+        Character choose = scanner.next().toLowerCase().charAt(0);
 
         switch (choose) {
-            case 'X':
+            case 'x':
                 System.out.println("You voted 'X' successfully. Thank you for voting!");
                 break;
-            case 'Y':
+            case 'y':
                 System.out.println("You voted 'Y' successfully. Thank you for voting!");
                 break;
-            case 'Z':
+            case 'z':
                 System.out.println("You voted 'Z' successfully. Thank you for voting!");
                 break;
             default:
